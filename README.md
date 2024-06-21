@@ -1,2 +1,2 @@
 This is My project.
-Author= swadesh maurya
+This is developed by html , css , javascript.
