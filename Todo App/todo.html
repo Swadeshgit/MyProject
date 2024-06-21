@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="todo.css" />
+    <title>Todo App</title>
+    <style>
+      .D1 {
+        background-color: aquamarine;
+        /* align-items: center; */
+        width: 50%;
+        padding: 5%;
+        margin-top: 0%;
+        font-size: larger;
+        border-radius: 20px;
+      }
+      .D2 {
+        background-color: rgb(142, 255, 127);
+        /* align-items: center; */
+        /* height: 200px; */
+        width: 50%;
+      }
+      .D12 {
+        display: flex;
+        /* flex-wrap: wrap; */
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        /* justify-content: center; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="main-heading">Todo App</h1>
+    <div class="D12">
+      <div class="D2"></div>
+
+      <div class="D1">
+        <div class="grid-container">
+          <input id="todo-input" type="text" placeholder="Enter Todo here" />
+          <input id="todo-date" type="date" />
+          <button class="btn-todo" onclick="addTodo();">Add</button>
+        </div>
+
+        <div class="todo-container grid-container"></div>
+      </div>
+      <div class="D2"></div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
